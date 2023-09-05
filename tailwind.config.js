@@ -22,6 +22,9 @@ module.exports = {
         "hero-pattern": "url('/src/assets/Home Screen.gif')",
         "contact-pattern": "url('/src/assets/Contact.gif')",
       },
+      backdropBlur: {
+        "none": "none",
+      }
     },
   },
   plugins: [],

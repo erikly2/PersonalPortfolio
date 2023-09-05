@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center bg-opacity-70 backdrop-blur-lg fixed py-5 top-0 z-20`}
+      className={`${styles.paddingX} w-full flex items-center sm:backdrop-blur-lg backdrop-blur-none fixed py-5 top-0 z-20`}
     >
       <Link
         to='/'
@@ -24,7 +24,7 @@ const Navbar = () => {
         <img 
           src={logo} 
           alt='logo' 
-          className='w-9 h-9 object-contain fixed' 
+          className='w-9 h-9 hidden sm:flex object-contain fixed' 
           style={{ zIndex: 1 }}
         />
       </Link>
@@ -54,14 +54,14 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
           />
 
-          <div className={`${!toggle ? 'hidden': 'flex' } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
-            <ul className="list-none flexjustify-end items-start flex-col gap-4">
+          <div className={`${!toggle ? 'hidden': 'flex' } p-6 absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`} style={{ background: 'linear-gradient(-30deg, #3AB678, #25D1D1)' }}>
+            <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((Link)=>(
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ? "text-[#7fffd4]":"text-white"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                    active === "text-white"
+                  } hover:text-[#7fffd4] font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(Link.title);
