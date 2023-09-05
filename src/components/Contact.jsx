@@ -105,17 +105,14 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What do you want to say?"
               className="bg-[#7fffd4] py-4 px-5 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"      
-            />{/*style={{ width: "735px" }}*/}
+            />
           </label>
           <input
             type="image"
-            src="/src/assets/Me.gif" // Replace with the actual path to your image
+            src="/src/assets/Me.gif"
             alt="Submit"
-            className="image-button" // Apply any CSS classes for styling
-          />
-          {/* need to resize the gif andposition of button*/}
-            {/*{loading ? 'Sending...' : 'Send'}
-          </button>*/}   
+            className="image-button absolute translate-x-1/3 translate-y-3/4 bottom-0 right-0 z-10" // Apply any CSS classes for styling
+          /> 
         </form>
         
       </motion.div>

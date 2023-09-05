@@ -95,8 +95,8 @@
 }
 
 .image-button {
-  width: 100px; /* Set the width of the button */
-  height: 100px; /* Set the height of the button */
+  width: 170px; /* Set the width of the button */
+  height: 170px; /* Set the height of the button */
   border: none; /* Remove default border */
   cursor: pointer; /* Change cursor to pointer on hover */
   /* Add any other styling you want */
