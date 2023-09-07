@@ -7,13 +7,13 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingY} absolute inset-0 top-[170px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Name</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Erik</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>This is a bio to be edited later.</p>
         </div> 
       </div>
       
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
+        <a href='#projects'>
           <div className='w-[30px] h-[59px] rounded-3xl border-4 border-[#7fffd4] flex justify-center items-start p-2'>
             <motion.div
               animate={{
