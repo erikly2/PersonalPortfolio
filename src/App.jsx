@@ -22,7 +22,6 @@ const App = () => {
         <div className="background-container">
           <div className="content">
             <Contact /> 
-            <StarsCanvas />
           </div>
         </div>
        
