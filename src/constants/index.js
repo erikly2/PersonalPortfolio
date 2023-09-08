@@ -114,21 +114,17 @@ import {
       source_code_link: "https://github.com/CS222-UIUC/course-project-group-14",
     },
     {
-      name: "Job IT",
+      name: "Madlib API",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
           name: "restapi",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
