@@ -78,7 +78,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-3 flex flex-col form-container gap-2"
         >
-          <label className="flex flex-col ne-box">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-2">Your Name</span>
             <input 
               type="text"
@@ -90,7 +90,7 @@ const Contact = () => {
             />
           </label>
 
-          <label className="flex flex-col ne-box">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-2">Your Email</span>
             <input 
               type="email"
@@ -102,7 +102,7 @@ const Contact = () => {
             />
           </label>
 
-          <label className="flex flex-col message-box">
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-2">Your Message</span>
             <textarea
               rows={calculateRows()}
