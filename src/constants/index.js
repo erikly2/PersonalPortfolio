@@ -96,42 +96,38 @@ const projects = [
     source_code_link: "https://github.com/CS222-UIUC/course-project-group-14",
   },
   {
+    name: "Sentiment Analysis Program",
+    description:
+      "A program that takes a tweet and determines the sentiment of that tweet. Utilizes decision trees and tweets from the Twitter API to formulate a response",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Natural Language Programming",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/erikly2/LING490-Hate-Speech-Detection",
+  },
+  {
     name: "Madlib API",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to construct a Mad Libs.",
     tags: [
       {
         name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "flask",
         color: "green-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/erikly2/MadLib-API",
   },
 ];
 
