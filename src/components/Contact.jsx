@@ -14,6 +14,7 @@ const Contact = () => {
     email: "",
     message: "",
   })
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -58,21 +59,26 @@ const Contact = () => {
       alert("Something went wrong.");
     })
   }
+  const calculateRows = () => {
+    const screenHeight = window.innerWidth;
+    const rowHeight = 175; // Adjust this value according to your design
+    return Math.floor(screenHeight / rowHeight);
+  };
 
   return (
     <div className="relative z-0 xl:mt-24 xs:mt-1 xl:flex-row flex-col-reverse justify-left items-left flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('up', "tween", 0.2, 1)}
-        className="flex-[0.75] p-10 rounded-2xl -mt-14"
+        className="flex-[0.75] p-14 rounded-2xl -mt-16"
       >
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-3 flex flex-col form-container gap-3"
+          className="mt-3 flex flex-col form-container gap-2"
         >
-          <label className="flex flex-col">
+          <label className="flex flex-col ne-box">
             <span className="text-white font-medium mb-2">Your Name</span>
             <input 
               type="text"
@@ -84,7 +90,7 @@ const Contact = () => {
             />
           </label>
 
-          <label className="flex flex-col">
+          <label className="flex flex-col ne-box">
             <span className="text-white font-medium mb-2">Your Email</span>
             <input 
               type="email"
@@ -96,10 +102,10 @@ const Contact = () => {
             />
           </label>
 
-          <label className="flex flex-col">
+          <label className="flex flex-col message-box">
             <span className="text-white font-medium mb-2">Your Message</span>
             <textarea
-              rows="4"
+              rows={calculateRows()}
               name="message"
               value={form.message}
               onChange={handleChange}
