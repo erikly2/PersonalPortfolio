@@ -118,12 +118,6 @@
   transform: scale(.80);
   transform-origin: top left; /* Align children at the top */
 }
-.ne-box { /* vw */
-  /*height: calc(15vw*1);*/
-}
-.message-box { /* vw */
-  /*height: calc(15vw*1.3);*/
-}
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
