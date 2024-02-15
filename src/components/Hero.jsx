@@ -25,7 +25,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>This is a bio to be edited later.</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a graduate from UIUC with a Bachelors in Computer Science and Linguistics.</p>
         </div> 
       </div>
       
