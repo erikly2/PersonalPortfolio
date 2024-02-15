@@ -9,9 +9,9 @@ import {
   java,
   reactjs,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  syllabestie,
+  madlib,
+  SAP,
 } from "../assets";
 
 export const navLinks = [
@@ -92,8 +92,25 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: syllabestie,
     source_code_link: "https://github.com/CS222-UIUC/course-project-group-14",
+  },
+  {
+    name: "Social Media API",
+    description:
+      "Application Programming Interface that edits information from a database. Allows user to register, login, and send, recieve, and edit messages.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: SAP,
+    source_code_link: "https://github.com/erikly2/erikly2-pep-project",
   },
   {
     name: "Sentiment Analysis Program",
@@ -109,7 +126,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: SAP,
     source_code_link: "https://github.com/erikly2/LING490-Hate-Speech-Detection",
   },
   {
@@ -122,11 +139,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "restapi",
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: madlib,
     source_code_link: "https://github.com/erikly2/MadLib-API",
   },
 ];

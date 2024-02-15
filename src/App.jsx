@@ -16,9 +16,6 @@ const App = () => {
         <div className="bg-[#000000] bg-cover bg-no-repeat bg-center">
           <About />
         </div>
-        {/*<Experience />
-        <Tech /> put in about
-        <Feedbacks /> {/*to be removed later*/}
         <div className="background-container">
           <div className="content">
             <Contact /> 

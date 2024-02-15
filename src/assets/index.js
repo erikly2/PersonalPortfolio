@@ -15,9 +15,9 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import syllabestie from "./syllabestie.png";
+import madlib from "./madlib.png";
+import SAP from "./SAP.png";
 
 export {
   logo,
@@ -34,7 +34,7 @@ export {
   html,
   javascript,
   reactjs,
-  carrent,
-  jobit,
-  tripguide,
+  syllabestie,
+  madlib,
+  SAP,
 };
