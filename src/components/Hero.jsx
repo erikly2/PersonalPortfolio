@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingY} absolute inset-0 top-[170px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Erik</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Erik Ly</span></h1>
           <div className="flex flex-row -mt-2 gap-3 center">
             <div className="w-9 h-9">
               <a href="https://github.com/erikly2?tab=repositories" target="_blank">

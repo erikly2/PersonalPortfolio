@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import styled from 'styled-components';
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -59,17 +58,17 @@ const Contact = () => {
       alert("Something went wrong.");
     })
   }
-  const calculateRows = () => {
+  /*const calculateRows = () => {
     const screenHeight = window.innerWidth;
-    const rowHeight = 175; // Adjust this value according to your design
+    const rowHeight = 1000; // Adjust this value according to your design
     return Math.floor(screenHeight / rowHeight);
-  };
+  };*/
 
   return (
     <div className="relative z-0 xl:mt-24 xs:mt-1 xl:flex-row flex-col-reverse justify-left items-left flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('up', "tween", 0.2, 1)}
-        className="flex-[0.75] p-14 rounded-2xl -mt-16"
+        className="flex-[0.75] p-1 rounded-2xl mt-6 form-container"
       >
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
@@ -105,7 +104,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-2">Your Message</span>
             <textarea
-              rows={calculateRows()}
+              rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}
@@ -117,7 +116,7 @@ const Contact = () => {
             type="image"
             src="/src/assets/Me.gif"
             alt="Submit"
-            className="image-button absolute translate-x-1/3 translate-y-3/4 bottom-0 right-0 z-10" // Apply any CSS classes for styling
+            className="image-button absolute translate-x-1/3 translate-y-3/4 bottom-20 right-0 z-10" // Apply any CSS classes for styling
           /> 
         </form>
         

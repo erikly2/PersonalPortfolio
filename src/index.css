@@ -19,6 +19,13 @@
   display: block;
 }
 
+.skill-gradient {
+  background: linear-gradient(to bottom, #28DCEC 0%, #000000 40%);
+}
+.project-gradient {
+  background: linear-gradient(to bottom, #000000 0%, #18AAE4 30%, #18C4E4 90%);
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -95,11 +102,10 @@
 }
 
 .image-button {
-  width: 25vw; /* Set the width of the button */
-  height: 25vw; /* Set the height of the button */
+  width: 20vw; /* Set the width of the button */
+  height: 20vw; /* Set the height of the button */
   border: none; /* Remove default border */
   cursor: pointer; /* Change cursor to pointer on hover */
-  /* Add any other styling you want */
 }
 
 .content {
@@ -112,7 +118,7 @@
 
 .form-container { /* vw */
   width: 90vw; /* Set the initial width of the container */
-  height: calc(20vw*2.4);
+  height: 64vw;
   margin: 0 auto; /* Center the form horizontally */
   transition: width 0.1s ease, transform 0.1s ease; /* Add a smooth transition effect */
   transform: scale(.80);

@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Hero, Navbar, Works } from './components';
+import { Skills, Contact, Hero, Navbar, Works } from './components';
 
 const App = () => {
   return (
@@ -10,11 +10,11 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <div className="bg-[#18AAE4] bg-cover bg-no-repeat bg-center">
-          <Works />
+        <div className="skill-gradient bg-cover bg-no-repeat bg-center">
+          <Skills />
         </div>
-        <div className="bg-[#000000] bg-cover bg-no-repeat bg-center">
-          <About />
+        <div className="project-gradient bg-cover bg-no-repeat bg-center">
+          <Works />
         </div>
         <div className="background-container">
           <div className="content">
