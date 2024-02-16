@@ -47,7 +47,7 @@ const Skills = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I strive to constantly improve my skill sets.
+        I strive to constantly improve and expand on my skill set. Here are the technologies I've worked with.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-5'>
