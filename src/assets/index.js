@@ -1,5 +1,10 @@
 import logo from "./logo.svg";
 
+import githubmain from "./github-icon.png";
+import linkedin from "./linkedin-icon.png";
+import resume from "./resume-icon.png";
+import button from "./Me.gif";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,6 +27,10 @@ import SAP from "./SAP.png";
 export {
   logo,
   github,
+  githubmain,
+  linkedin,
+  resume,
+  button,
   menu,
   close,
   css,
