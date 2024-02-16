@@ -2,6 +2,12 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 
+import {
+  githubmain,
+  linkedin,
+  resume,
+} from "../assets";
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -11,17 +17,17 @@ const Hero = () => {
           <div className="flex flex-row -mt-2 gap-3 center">
             <div className="w-9 h-9">
               <a href="https://github.com/erikly2?tab=repositories" target="_blank">
-                <img src="/src/assets/github-icon.png" alt="Button 1" />
+                <img src={githubmain} alt="Button 1" />
               </a>
             </div>
             <div className="center w-7 h-7 mt-1">
               <a href="https://www.linkedin.com/in/erik-ly-49510b247/" target="_blank">
-                <img src="/src/assets/linkedin-icon.png" alt="Button 2" />
+                <img src={linkedin} alt="Button 2" />
               </a>
             </div>
             <div className="center w-9 h-9">
               <a href="/src/assets/Resume - Erik.pdf" download="Resume - Erik.pdf">
-                <img src="/src/assets/resume-icon.png" alt="Button 3" />
+                <img src={resume} alt="Button 3" />
               </a>
             </div>
           </div>

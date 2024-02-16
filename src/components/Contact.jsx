@@ -6,6 +6,10 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import {
+  button,
+} from "../assets";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -114,7 +118,7 @@ const Contact = () => {
           </label>
           <input
             type="image"
-            src="/src/assets/Me.gif"
+            src={button}
             alt="Submit"
             className="image-button absolute translate-x-1/3 translate-y-3/4 bottom-20 right-0 z-10" // Apply any CSS classes for styling
           /> 
